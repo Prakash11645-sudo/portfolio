@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Prakash Timalsina</title>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--<link rel="stylesheet" href="style.css">   -->
+<style>
+* {
+  box-sizing: border-box;
+/* background: #00154f;*/
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+#header {
+  
+  text-align: center;
+/*  background: #00154f;*/
+  color: #f2bc94;
+  
+}
+.navbar {
+
+  overflow: hidden;
+  background-color:  #36454F;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  height: 50px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  opacity: 0.5;
+  border-radius: 50%;
+  background-color: transparent;
+  color: black;
+}
+
+.logo {
+  height: 35px;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+/* Main column */
+#main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #194569;
+  
+}
+
+#about {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #194569;
+  
+}
+.photo {
+  border: solid 2px;
+  border-color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+
+/* Footer */
+#footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ background: #36454F;
+  
+}
+.fa {
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  width: 30px;
+  word-spacing: 20px;
+  text-align: center;
+  color: white;
+  text-decoration-color: transparent;
+  border: solid 1px;
+  border-color: transparent;
+  border-radius: 30%;
+  background-color: transparent;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-github {
+  color: white;
+}
+.fa-instagram{
+  color: white;
+}
+.fa-twitter{
+  color: white;
+}
+.fa-linkedin{
+  color: white;
+}
+.fa-envelope{
+  color: white;
+}
+
+
+.contact_text {
+  color: white;
+  font-family: Geneva;
+  font-weight: 4px;
+  font-size: 30px;
+}
+
+
+.welcome {
+  color: #e3b448;
+  font-family: 'Courier New', monospace;
+  font-weight: 4px;
+  font-size: 30px;
+}
+.description {
+    color: white;
+  font-family: 'Courier New', monospace;
+  font-weight: 4px;
+  font-size: 20px;
+}
+.copyright {
+  padding-bottom: 2px;
+  font-size: 10px;
+  color: black;
+  font-family: Times New Roman;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.fa-angle-up {
+  font-size: 15px;
+}
+
+</style>
+
+
+<style>
+body #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+ 
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  
+  
+  
+}
+
+</style>
+
+
+</head>
+<body>
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <i class="fa fa-angle-up"></i>Back to top
+</button>
+
+
+
+<div class="navbar">
+   <a href="#" ><img class="logo" src="logo.png" onClick="window.location.reload(true);"> </a>
+ <a href="#footer" style="float:right">Contact</a>
+ <a href="#about" style="float:right">About</a>
+</div>
+<div class="row">
+  <div id="main">
+    <br>
+    <br>
+   <br>
+    <br>
+    <p class="welcome">Hello There!</p>
+<p class="welcome">Welcome to my site.</p>
+  <br>
+    <br>
+   <br>
+    <br>
+  <center>
+      <img src="gold.png" style="height:50px">
+    </center>
+  </div> 
+  <div id="about">
+  <center>
+    <br>
+    <br>
+    <br>
+    <br>
+     <!-- <img class="photo" src="photo.jpg">  -->
+    <p class="contact_text" >About me<p>
+   
+    <p class="description"> I'm Prakash Timalsina</p>
+      <p class="description">I'm a student of Computer Science, completed my high school from Khwopa Secondary School. And I plan on mastering this.
+</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </center>
+  </div> 
+<div id="footer">
+ <center>
+   <br>
+    <p class="contact_text" >Let's talk</p>
+    <p class="description"> I'm here.</p>
+<a href="https://github.com/Prakash11645-sudo" class="fa fa-github"></a>
+<a href="https://www.instagram.com/adeadbrain_/" class="fa fa-instagram"></a>
+<a href="https://mobile.twitter.com/prakashT_1" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/prakash-/" class="fa fa-linkedin"></a>
+<br><a href="mailto: prakashtimalsina318@gmail.com" class="fa fa-envelope"></a>
+        <p class="copyright">DESIGNED BY PRAKASH TIMALSINA</p>
+</center>
+</div>
+
+
+
+
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
